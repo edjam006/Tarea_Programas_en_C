@@ -5,7 +5,7 @@ int main(void){
     
     
         for (nuevo= 1; nuevo <= 10000;){ 
-            
+            printf("%d\n", nuevo);
             sum= nuevo + num;
             num= nuevo;
             nuevo= sum;
